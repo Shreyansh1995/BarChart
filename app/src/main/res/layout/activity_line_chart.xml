@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="studytutorial.in.barchart.Main2Activity">
-    <com.github.mikephil.charting.charts.BarChart
-        android:id="@+id/chart"
+    tools:context="studytutorial.in.barchart.LineChartActivity">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 
 </LinearLayout>
